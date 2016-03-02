@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+logs
+*.log
+
+node_modules
+jspm_packages
+typings
+0-clase
+=======
+
+logs
+*.log
+node_modules
+jspm_packages
+typings
+*.map
+>>>>>>> 2bdbbc2fb2e822bdd537bdd83a0843655d613a0c

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 4 - </title>
+    <!--jspm motor de carga de systemJS-->
+    <script src="jspm_packages/system.js"></script>
+    <!--jspm fichero de configuración y dependencias-->
+    <script src="config.js"></script>
+    <script>
+        //nuestro programa
+                System.import('main.js');
+    </script>
+    <link href="jspm_packages/npm/angular-material@1.0.2/angular-material.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body layout="column" layout-fill>
+  <toolbar></toolbar>
+  <md-content layout="row" flex>
+    <nav>
+      <sidenav></sidenav>
+    </nav>
+    <section layout="column" flex ui-view>
+      <!--contenidos dinamicos-->
+    </section>
+  </md-content>
+  <fab></fab>
+</body>
+
+</html>
